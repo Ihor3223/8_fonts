@@ -58,33 +58,42 @@ body {
   background: #181818;
 }
 
-.h1 {
+.top_block {
   font-family: "Playfair", sans-serif;
-  font-size: 30px;
-  border-bottom: 2px solid #303030;
-  color: #fff;
-  padding-top: 8%;
-  margin-left: 52px;
   font-weight: lighter;
-  padding-bottom: 12px;
+  color: #fff;
+
+  padding-top: 5%;
+  margin-left: 52px;
 }
+
+.top_block > sub {
+  color: #9c9c9c;
+}
+
+.top_block > p {
+  font-size: 30px;
+  margin: 0;
+  border-bottom: 2px solid #303030;
+  padding-bottom: 8px;
+}
+
 .icons {
   margin-left: auto;
   height: 60px;
   width: 650px;
   background: #f9bf2d;
   color: #fff;
-
   cursor: pointer;
 }
 
-.h2 {
+.parag {
   font-family: "Playfair Display Bold", sans-serif;
   font-size: 10px;
   color: #dcdcdc;
   letter-spacing: 2px;
 }
-.h3 {
+.like {
   font-family: "Playfair Display Bold", sans-serif;
   padding-bottom: 0;
   letter-spacing: 2px;
@@ -92,7 +101,7 @@ body {
   margin: 0;
   font-size: 50px;
 }
-.going {
+.last {
   margin: auto;
   font-family: "Playfair", sans-serif;
   font-size: 15px;
